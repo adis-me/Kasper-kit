@@ -1,0 +1,15 @@
+Title:
+
+Error
+
+----
+
+Description:
+
+This could be a pretty helpful error page.
+
+----
+
+Text:
+
+The page you've been looking for has not been found.

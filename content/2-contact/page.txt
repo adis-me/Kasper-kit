@@ -1,0 +1,17 @@
+Title:
+
+Contact
+
+----
+
+Description:
+
+This could be an awesome contact page.
+
+----
+
+Text:
+
+Kasper kit is a starting point for your next Kirby installation.
+
+Try it, you won't be scared. It's is simple, flat and based on Kirby.
