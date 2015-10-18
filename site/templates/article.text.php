@@ -37,6 +37,8 @@
 
             <?php snippet('post-footer') ?>
 
+            <?php snippet('disqus', array('disqus_shortname' => $site->owner()->text(), 'disqus_developer' => true)) ?>
+
         </article>
     </main>
 
