@@ -19,15 +19,15 @@
 
     <section class="share">
         <h4>Share this post</h4>
-        <a class="icon-twitter" href="https://twitter.com/intent/tweet?text={{encode title}}&amp;url={{url absolute="true"}}"
+        <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=<?php echo $page->title() ?>&amp;url=<?php echo $page->url() ?>"
         onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
         <span class="hidden">Twitter</span>
         </a>
-        <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}"
+        <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $page->url() ?>"
         onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
         <span class="hidden">Facebook</span>
         </a>
-        <a class="icon-google-plus" href="https://plus.google.com/share?url={{url absolute="true"}}"
+        <a class="icon-google-plus" href="https://plus.google.com/share?url=<?php echo $page->url() ?>"
         onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
         <span class="hidden">Google+</span>
         </a>
